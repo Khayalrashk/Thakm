@@ -2,8 +2,6 @@ from pyrogram import Client
 from asBASE import asJSON
 import re
 from os import getenv
-
-from dotenv import load_dotenv
 from pyrogram import filters
 
 db = asJSON("as.json")
