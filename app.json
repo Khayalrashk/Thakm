@@ -24,7 +24,7 @@
         "value": "986cb4ba434870a62fe96da3b5f6d411",
         "required": true
       },
-      "BOT_TOKEN": {
+      "TOKEN": {
         "description": "ضع هنا تكون البوت الذي صنعته من @BotFather.",
         "value": "",
         "required": true
