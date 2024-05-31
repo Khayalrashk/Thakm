@@ -1,14 +1,12 @@
 from pyrogram import Client
 from asBASE import asJSON
-
-db = asJSON("as.json")
 import re
 from os import getenv
 
 from dotenv import load_dotenv
 from pyrogram import filters
 
-load_dotenv()
+db = asJSON("as.json")
 ###
 
 
