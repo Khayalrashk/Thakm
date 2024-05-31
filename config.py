@@ -10,9 +10,9 @@ db = asJSON("as.json")
 ###
 
 
-SUDORS = [5901732027] # ايديات المطورين
-API_ID = 9028013
-API_HASH = "cc894fc40424f9c8bbcf06b7355bd69d"
-TOKEN = "" # التوكن
+SUDORS = int(getenv("SUDORS", 5901732027))
+API_ID = getenv("API_ID","20036317")
+API_HASH = getenv("API_HASH","986cb4ba434870a62fe96da3b5f6d411")
+TOKEN = getenv("TOKEN")
 bot = Client("control",API_ID,API_HASH,bot_token=TOKEN,in_memory=True)
 bot_id = TOKEN.split(":")[0]
