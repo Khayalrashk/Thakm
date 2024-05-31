@@ -189,7 +189,7 @@ async def forbroacasts(bot, msg):
 			pass
 @bot.on_message(filters.private, group=4)
 async def twasl(bot, msg):
-	if msg.from_user.id not in SUDORS:
+	if msg.from_user.id in SUDORS:
 		for user in SUDORS:
 			if db.get(f"{user}:twasl:{bot_id}"):
 				await msg.forward(user)
