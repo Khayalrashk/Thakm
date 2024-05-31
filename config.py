@@ -5,7 +5,7 @@ db = asJSON("as.json")
 ###
 
 
-SUDORS = [5541009328] # ايديات المطورين
+SUDORS = [5901732027] # ايديات المطورين
 API_ID = 9028013
 API_HASH = "cc894fc40424f9c8bbcf06b7355bd69d"
 TOKEN = "" # التوكن
